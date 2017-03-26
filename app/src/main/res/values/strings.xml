@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">RashDetecter</string>
+    <string name="title_activity_rash_location">RashLocation</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="select_gender">Select Gender</string>
+    <string-array name="gender_type">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="home">HOME</string>
+    <string name="result">Result:</string>
+    <string name="desc">Description:</string>
+    <string name="Impetigo">Bullous Impetigo</string>
+    <string name="n_Impetigo">Non-bullous Impetigo</string>
+    <string name="eczema">Eczema</string>
+    <string name="keratosis">Keratosis Pilaris</string>
+    <string name="treatment">Suggested Treatment</string>
+    <string name="b_impetigo_desc">"Bullous impetigo begin with the appearance of fluid-filled blisters (bullae) which usually occur on the central part of the body between the waist and neck, or on the arms and legs.
+        The blisters may quickly spread, before bursting after several days to leave a yellow crust that usually heals without leaving any scarring.
+        The blisters may be painful and the area of skin surrounding them may be itchy. As with non-bullous impetigo, it's important not to touch or scratch the affected areas of the skin."
+    </string>
+    <string name="n_impetigo_desc">"Non-bullous impetigo begin with the appearance of red sores – usually around the nose and mouth but other areas of the face and the limbs can also be affected.
+        The sores quickly burst leaving behind thick, golden crusts. After the crusts dry, they leave a red mark that usually fades without scarring between a few days and a few weeks. The sores may be itchy.
+        It's important not to touch or scratch the sores because this can spread the infection to other parts of the body, and to other people."
+    </string>
+    <string name="eczema_desc">"Atopic eczema affects both sexes equally and usually starts in the first weeks or months of life. It is most common in children and usually disappears during childhood,
+        although it can carry on into adult life or come back in the teenage or early adult years. It may occasionally develop for the first time in adulthood. The main symptom is itch.
+        Scratching in response to itch may be the cause for many of the changes seen on the skin. Itching can be bad enough to interfere with sleep, causing tiredness and irritability."
+    </string>
+    <string name="keratosis_desc">"Keratosis pilaris is a common and harmless condition where the skin becomes rough and bumpy, as if covered in permanent goose pimples.
+    The patches of affected skin will be covered in tiny spiky bumps, which may be white, red or skin-coloured. This spotting looks like "chicken skin" or permanent goose pimples, and the skin feels rough, like sandpaper."
+    </string>
+    <string name="b_impetigo_treatment">"Impetigo usually gets better without treatment in around two to three weeks.
+        However, treatment is often recommended because it can reduce the length of the illness to around seven to 10 days and can lower the risk of the infection being spread to others.
+        The main treatments prescribed are antibiotic creams or antibiotic tablets. These usually have to be used for around a week."
+    </string>
+    <string name="eczema_treatment1">"Treatment for atopic eczema can help to relieve the symptoms and many cases improve over time.
+However, there is currently no cure and severe eczema often has a significant impact on daily life, which may be difficult to cope with physically and mentally. There is also an increased risk of skin infections.
+Many different treatments can be used to control symptoms and manage eczema, including:"
+
+    </string>
+    <string name="eczema_treatment2">"self care techniques, such as reducing scratching and avoiding trigger.
+        Use semollients (moisturising treatments) on a daily basis for dry skin.
+        Use topical corticosteroids to reduce swelling, redness and itching during flare-ups"
+    </string>
+    <string name="keratosis_treatment1">"Little can be done to treat keratosis pilaris, and it often gets better on its own without treatment."
+    </string>
+    <string name="keratosis_treatment2">"However, if it is bothering you, you can use non-soap cleansers rather than soap because ordinary soap may dry your skin out and make the condition worse. You can also
+moisturise your skin when it is dry, your GP or pharmacist can recommend a suitable cream, although moisturisers and emollients only reduce the dryness of your skin and will not cure the rash."
+    </string>
+
+
+</resources>

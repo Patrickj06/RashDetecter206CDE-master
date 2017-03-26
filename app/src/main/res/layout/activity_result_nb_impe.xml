@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realworldproject.group03.rashdetecter.result_nb_impe">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/result"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/rash_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/n_Impetigo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/n_impetigo_pic"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/rash_type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/non_bullous"
+        app:srcCompat="@drawable/non_bullous" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/n_impetigo_pic"
+        android:layout_alignStart="@+id/title" />
+
+    <TextView
+        android:id="@+id/n_impetigo_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:text="@string/n_impetigo_desc"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/description"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="19dp"/>
+
+    <Button
+        android:id="@+id/next_nonbul_treat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/treatment" />
+
+</RelativeLayout>
